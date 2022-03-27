@@ -1,0 +1,74 @@
+.opiniones{
+    display: flex;
+    background-color: rgba(255, 147, 147, 0.9);
+margin: 220px 0 350px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	opacity: 1;
+}
+
+ .contenedor div div h6 a{
+ 	color: #03658c;
+ 	text-decoration: none;
+ }
+
+ .listaComent li{
+	 list-style: none;
+ }
+
+
+.metaCont {
+	margin: 60px auto 15px;
+	width: 768px;
+}
+
+.metaCont h3{
+	text-align: center;
+	font-size: 30px;
+	color: #0f4458;
+	margin-bottom: 100px;
+}
+
+.contenedor-avatar img {
+	width: 20%;
+}
+
+.cabezaComent {
+	background: #FCFCFC;
+	padding: 10px 12px;
+	border-bottom: 1px solid #E5E5E5;
+	overflow: hidden;
+	-webkit-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+}
+
+.cabezaComent-nombre {
+	color: #283035;
+	font-size: 14px;
+	font-weight: 700;
+	float: left;
+	margin-right: 10px;
+}
+
+.contenidoComent {
+	background: #FFF;
+	padding: 12px;
+	font-size: 15px;
+	color: #595959;
+	-webkit-border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+
+.listaComent li{
+	margin-bottom: 40px;
+}
+
+.listaComent li:last-child{
+	margin-bottom: 160px;
+}
